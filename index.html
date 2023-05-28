@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<body>
+    <form action="cadastro.html" method="get">
+    <fieldset>
+      <legend><h3>Cadastro</h3></legend>
+    
+    <fieldset>
+    <legend><h3>Dados pessoais</h3></legend>
+    <label for="Nome">Nome Completo:</label><br>
+    <input type="text" name="Nome" id="Nome"><br><br>
+    <label for="Profissão"> Profissão:</label><br>
+   
+    <select name="opções" id="Profissão">
+        <option value="Medico">Medico</option>
+        <option value="Dentista">Dentista</option>
+        <option value="Desenvolvedor" selected>Desenvolvedor</option>
+        <option value="Professor">Professor</option>
+    </select>
+    </fieldset>
+
+    <fieldset>
+    <legend><h3>Localização</h3></legend>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="Rua">Rua:</label><br>
+    <input type="text" name="Rua" id="Rua"><br><br>
+    </fieldset>
+ 
+    <fieldset>
+    <legend><h3>Faixa etária</h3></legend>
+     <input type="radio" name="fe" id="fe" checked>
+     <label for="fe">Até 20 anos</label><br>
+     <input type="radio" name="fe" id="fe" checked>
+     <label for="fe">Mais de 20 até 30 anos</label><br>
+     <input type="radio" name="fe" id="fe" checked>
+     <label for="fe">Mais de 30 até 40 anos</label><br>
+     <input type="radio" name="fe" id="fe" checked>
+     <label for="fe">Mais de 40 até 50 anos</label><br>
+     <input type="radio" name="fe" id="fe" checked>
+     <label for="fe">Mais de 50  até 60 anos</label><br>
+     <input type="radio" name="fe" id="fe" checked>
+     <label for="fe">Mais de 60 anos</label>
+    </fieldset>
+  
+    <fieldset>
+    <legend><h3>Esportes que pratica</h3></legend>
+     <input type="checkbox" name="esportes" id="esportes">
+     <label for="esportes">Futebol de campo</label><br>
+     <input type="checkbox" name="esportes" id="esportes">
+     <label for="esportes">Futebol de salão</label><br>
+     <input type="checkbox" name="esportes" id="esportes">
+     <label for="esportes">Futebol society</label><br>
+     <input type="checkbox" name="esportes" id="esportes">
+     <label for="esportes">Volei de quadra</label><br>
+     <input type="checkbox" name="esportes" id="esportes">
+     <label for="esportes">Volei de praia</label><br>
+     <input type="checkbox" name="esportes" id="esportes">
+     <label for="esportes">Naatação em piscina</label><br>
+     <input type="checkbox">Natação em mar aberto
+    </fieldset>
+
+    <fieldset>
+    <legend><h3>Comentário</h3></legend>
+    <p>Mensagem:</p>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </fieldset>
+
+    </fieldset>
+    <input type="submit">
+    </form>
+</body>
+</html>
